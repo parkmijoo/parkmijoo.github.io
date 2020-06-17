@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+* {
+	padding : 0px;
+	margin : 0px;
+}
+li {
+	list-style-type : none;
+}
+header {
+	border-bottom : 1px solid #cccccc;
+	width : 1300px;
+	height : 100px; 
+	margin-top : 10px;
+}
+aside {
+	float : right;
+	margin-top :85px;
+}
+aside li {
+	text-align : right;
+	margin-bottom : 30px;
+}
+footer {
+	width : 1300px;
+	height : 100px;
+	margin : 10px 0 10px 0;
+}
+hr {
+	border-bottom : 1px solid grey;
+	margin-top : 40px;
+	margin-bottom : 30px;
+}
+.clear {
+	clear : both;
+}
+#page {
+	width : 1300px;
+	margin : auto;
+}
+#logo {
+	float : left;
+	margin-top : 10px;
+}
+#top {
+	float : right;
+	margin : 30px 20px 0 0;
+}
+#menu {
+	width : 1300px;
+	height : 70px;
+	margin-top : 10px;
+	border-bottom : 1px solid grey;
+}
+#menu li {
+	display : inline-block;
+	margin : 20px 30px;
+}
+#small {
+	float : right;
+	font-size : 80%;
+	margin-right : 77px;
+	margin-top : 25px;
+}
+#info {
+	float : left;
+	margin-left : 29px;
+	margin-top : 22px;
+	color : grey;
+}
+#info0 {
+	padding : 20px 0 0 0;
+}
+#info1 {
+	border-top : 2px solid lightgrey;
+	border-bottom : 1px solid lightgrey;
+	width : 200px;
+	background-color : lightseagreen;
+	padding : 20px 0 20px 0 ;
+	width : 210px;
+	height : 25px;
+	color : white;
+}
+#info2 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info3 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info4 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info5 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info6 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info7 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info8 {
+	border-bottom : 1px solid lightgrey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info9 {
+	border-bottom : 1px solid grey;
+	padding : 2px 0px 20px 5px;
+	width : 200px;
+}
+#info li {
+	margin : 20px;
+}
+#sub1{
+	margin-top : 42px;
+	margin-left : 300px;
+	border-bottom : 2px solid black;
+	width : 840px;
+	padding-bottom : 18px;
+}
+#sub2 {
+	margin-top : 50px;
+	margin-left : 300px;
+	color : darkgrey;
+	font-size : 90%;
+	padding : 5px;
+	border-bottom : 1.5px solid darkgrey;
+	width : 835px;
+}
+#sub3 {
+
+}
+#sub3 li{
+	display : inline-block;
+	margin-top : 40px;
+	margin-right : 5px;
+	margin-left : 22px;
+	overflow : hidden;
+	font-size : 95%;
+}
+#sub3 img {
+	width : 250px;
+	height : 180px;
+	display : block;
+}
+#sub3 img:hover {
+	transform : scale(1.1);
+	transition : transform 1s;
+}
+#sub4 {
+
+}
+#sub4 li{
+	display : inline-block;
+	margin-top : 40px;
+	margin-right : 15px;
+	margin-left : 22px;
+	overflow : hidden;
+	font-size : 95%;
+}
+#sub4 img {
+	width : 250px;
+	height : 180px;
+	display : block;
+}
+#sub4 img:hover {
+	transform : scale(1.1);
+	transition : transform 1s;
+}
+#sub5 {
+	margin-left : 300px;
+}
+#sub5 li{
+	display : inline-block;
+	margin-top : 40px;
+	margin-right : 40px;
+	/*margin-left : 300px;*/
+	overflow : hidden;
+	font-size : 95%;
+}
+#sub5 img {
+	width : 250px;
+	height : 180px;
+	display : block;
+}
+#sub5 img:hover {
+	transform : scale(1.1);
+	transition : transform 1s;
+}
+#num {
+	width : 1300px;
+	height : 10px;
+	margin-left : 550px;
+	margin-bottom : 100px;
+}
+#num li {
+	display : inline-block;
+	margin-right : 15px;
+}
+#round {
+background-color : lightseagreen;
+color : white;
+border-radius : 50% 50% ;
+padding : 1px 7px 1px 7px;
+}
+#address {
+	float : left;
+	margin : 10px 0 0 10px;
+}
+#customer {
+	float : right;
+	margin : 10px 0 0 180px;
+}
+</style>
+</head>
+<body id="page">
+<header>
+	<div id="logo"> <a href="index.html"><img src="./img/logo.PNG"></a></div>
+	<div id="top"> 로그인 ㅣ 회원가입 ㅣ <a href="introduce.html">마이페이지</a> ㅣ 고객센터 </div>
+</header>
+<div class="clear">
+<nav id="menu">
+	<ul>
+		<li> 감염병 </li>
+		<li> 건강정책 </li>
+		<li> 정책정보 </li>
+		<li> 연구개발 </li>
+		<li> 알림.자료 </li>
+		<li> 간행물.통계 </li>
+		<li> 민원.정보공개 </li>
+		<li> 기관소개 </li>
+		<li> 사업별홈페이지 </li>
+</nav>
+<nav>
+	<div id="small"> 홈 >> 알림.자료 >> <span style="color:lightseagreen">이달의건강소식</span></div>
+</nav>
+<div class="clear"></div>
+<nav id="info">
+	<ul>
+		<h2 id="info0">알림.자료</h2>
+		<li id="info1">이달의건강소식</li>
+		<li id="info2">보도자료</li>
+		<li id="info3">포토뉴스</li>
+		<li id="info4">홍보자료</li>
+		<li id="info5">공지사항</li>
+		<li id="info6">공고/공시</li>
+		<li id="info7">채용공고</li>
+		<li id="info8">법령.지침.서식</li>
+		<li id="info9">공무국외여행보고서</li>
+</nav>
+<aside>
+	<ul>
+		<li> 사용자별 맞춤메뉴 </li>
+		<li> 일반인 </li>
+		<li> 연구자 </li>
+		<li> 언론인 </li>
+	</ul>
+</aside>
+<section>
+	<div><h2 id="sub1"> 이달의건강소식 </h2> </div>
+</section>
+<section>
+	<ul>
+		<li id="sub2">전체 94건, 현재 페이지 <span style="color:orange">1</span>/11</li>
+</section>
+<section>
+	<ul id="sub3">
+		<li> <a href="index03.html"><img src="./img/sc1.PNG"></a> <br><b> 호기심이 많은 우리 아이, 질식사고에...</b> </li>
+		<li> <img src="./img/sc2.PNG"> <br><b> 추운 겨울 화상이 웬 말? 겨울철 조심... </b></li>
+		<li> <img src="./img/sc3.PNG"> <br><b> 갑자기 기온이 뚝! 하고 떨어진다면?... </b></li>
+</section>
+<section>
+	<ul id="sub4">
+		<li> <img src="./img/sc4.PNG"> <br><b> 우리 아이 감기 증상, 그냥 둬도 괜찮... </li>
+		<li> <img src="./img/sc5.PNG"> <br><b> 겨울철 감염병 이렇게 예방하세요! </li>
+		<li> <img src="./img/sc6.PNG"> <br><b> 가을철 불청객 알레르기비염 </li>
+</section>
+<section>
+	<ul id="sub5">
+		<li> <img src="./img/sc7.PNG"> <br><b> <사람은 감염되지 않습니다>아프리... </b></li>
+		<li> <img src="./img/sc8.PNG"> <br><b> 건강한 한가위 꿀팁<추석 연휴 주의... </b></li>
+		<li> <img src="./img/sc9.PNG"> <br><b> 개학 전 주의해야할 감염병 </b></li>
+</section>
+<hr>
+<section>
+	<div id="num">
+	<ul>
+		<li> <<  </li>
+		<li id="round"> 1 </li>
+		<li> 2</li>
+		<li> 3 </li>
+		<li> 4</li>
+		<li> 5 </li>
+		<li> >> </li>
+	</ul>
+</div>
+</section>
+<div class="clear">
+<footer>
+<div id="address">
+	<img src="./img/ad.PNG">
+</div>
+<div id="customer">
+	<img src="./img/footer.PNG">
+</div>
+</footer>
+</div>
+</body>
+</html>
